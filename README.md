@@ -1,6 +1,7 @@
 # Netflix-Interface
 For any reason this project only works when running on the server, because JQuery is not allowing the project to run locally. 
 I used a Extension of VSCode for running this application. 
+
 Extension:
   - ![image](https://user-images.githubusercontent.com/43700267/118832793-4b6ded80-b897-11eb-804c-945357c35fa1.png)
    
