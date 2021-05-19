@@ -1,8 +1,9 @@
-@media screen and (max-width: 700px){
+
+/* Mobile and iPad */
+@media screen and (max-width: 375px){
     header .container{
         display: flex;  
-        flex-direction: column;
-        
+        flex-direction: column;        
     }
 
     header .container nav{
@@ -26,18 +27,113 @@
     main .main-content{
         width: 100%;
         height: 90%;
+        margin-top: 1.0rem;
     }    
+    
+}
+@media screen and (min-width: 600px){
+    header .container nav{
+        display: flex;  
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header .container nav{
+        margin-left: 1rem;
+    }
+
+    .main-content .container .buttons{
+        margin-top: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translate(18%, -18%); 
+    }
+
+    .main-content .container .buttons .button{
+        height: 5rem;
+        width: 16rem;
+        font-size: 1.2rem;        
+    }    
+
+    main .main-content{
+        width: 100%;
+        height: 50vh;
+    }     
+    
+    .main-content .title, .main-content .description{
+        font-size: 1.4rem;
+        width: 70%;
+    }
+       
 }
 
+/* iPad Pro e Desktop*/
 @media screen and (min-width: 1000px){
     .description{
         width: 50%;  
         padding-top: 1.0rem;      
+    }         
+    
+    main .main-content{
+        width: 100%;
+        height: 68vh;
+    }   
+
+    .main-content .container .buttons{
+        margin-top: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translate(18%, -18%);  
+        margin-top: 5rem;       
     }
+
+    .main-content .container .buttons .button{
+        height: 6rem;
+        width: 20rem;
+        font-size: 1.4rem;
+    }    
+
+    .main-content .title, .main-content .description{
+        font-size: 1.8rem;
+        width: 70%;
+        
+    }
+
 }
 
 @media screen and (min-width: 600px){
     .main-content .container .buttons .button {
         margin-top: 1.3rem;
-    }
+    }   
 }
+
+/* Desktop */
+
+@media screen and (min-width: 1366px){
+    .main-content{
+        width: 100%;  
+        height: 100vh;      
+    }
+
+    .main-content .title{
+        margin-top: 1.2rem;
+    }
+
+    .main-content .container .buttons{
+        margin-top: 0.5rem;
+        display: inline;                 
+    }
+
+    .main-content .container .buttons .button{
+        height: 3rem;
+        width: 11rem;
+        font-size: 1.0rem;
+    }  
+
+}
+    
+
