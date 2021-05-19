@@ -1,5 +1,4 @@
 # Netflix-Interface
-Netflix screen made with HTML5, CSS3, JavaScript and JQuery. Also made with responsive designer for Desktop, Tablet and Mobile.
 For any reason this project only works when running on the server, because JQuery is not allowing the project to run locally. 
 I used a Extension of VSCode for running this application. 
 Extension:
