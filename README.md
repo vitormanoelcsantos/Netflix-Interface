@@ -4,6 +4,10 @@ I used a Extension of VSCode for running this application.
 
 Extension:
   - ![image](https://user-images.githubusercontent.com/43700267/118832793-4b6ded80-b897-11eb-804c-945357c35fa1.png)
+
+In project, just right click in index.html and choose: "Open With Live Server".
+  - ![image](https://user-images.githubusercontent.com/43700267/118833632-fb435b00-b897-11eb-9b4c-fd5f1142797c.png)
+
    
 Images:
   - Homepage Screen on Desktop: 
